@@ -1,0 +1,65 @@
+package week3;
+
+class XXXCompetitor {
+    private int competitorID;
+    private String level;
+    private Name name;
+    private String country;
+    void setLevel(String level){
+        this.level = level;
+    }
+
+    String getLevel(){
+        System.out.println(level);
+        return level;
+    }
+   
+    void setcountry(String country) {
+    	this.country = country;
+    }
+    
+    String getCountry(String country) {
+    	return country;
+    }
+    
+    void setCopetitorID() {
+    	this.competitorID = competitiorID;
+    }
+    
+    int getCopetitorID(int competitorID) {
+    	return competitorID;
+    }
+    
+    void getOverallScore() {
+    	
+    }
+}
+
+final class Name {
+	private final String firstName,lastName;
+	
+	public Name(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+	
+	String getFirstName() {
+		return firstName;
+	}
+	
+	String getLastName() {
+		return lastName;
+	}
+}
+
+public class Main {
+    public static void main(String[] args){
+        XXXCompetitor x = new XXXCompetitor();
+        x.setLevel("One");
+        x.getLevel();
+        
+        Name n = new Name("Kraneel","Manandhar");
+        System.out.print(n.getFirstName() + " " + n.getLastName());
+        
+    }
+}

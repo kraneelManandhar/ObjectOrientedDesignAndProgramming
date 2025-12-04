@@ -1,0 +1,7 @@
+AbstractTextEditor.Accessibility.UseCustomCarets=false
+comment_stylePreferences=NONE
+comment_text=false
+eclipse.preferences.version=1
+linked.focus.text.style=SQUIGGLES
+spacesForTabs=true
+useFindReplaceOverlay=false

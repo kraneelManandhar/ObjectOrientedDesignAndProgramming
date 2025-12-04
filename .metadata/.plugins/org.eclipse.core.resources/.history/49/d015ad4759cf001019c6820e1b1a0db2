@@ -1,0 +1,25 @@
+package week3;
+
+public class XXXCompetitor {
+    private int competitorID;
+    private String level;
+    private String country;
+    private Name name;
+
+    void setLevel(String level){
+        this.level = level;
+    }
+
+    String getLevel(){
+        System.out.println(level);
+        return level;
+    }
+}
+
+public class Main {
+    public static void main(String[] args){
+        XXXCompetitor x = new XXXCompetitor();
+        x.setLevel("One");
+        x.getLevel();   // Prints: One
+    }
+}
