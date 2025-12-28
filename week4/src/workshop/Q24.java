@@ -12,12 +12,12 @@ public class Q24 {
 
 //        try {
         
-            Scanner file = new Scanner(new File(filename));
-            while (file.hasNextLine()) {
-                System.out.println(file.nextLine());
-            }
-            file.close();
-            
+//            Scanner file = new Scanner(new File(filename));
+//            while (file.hasNextLine()) {
+//                System.out.println(file.nextLine());
+//            }
+//            file.close();
+//            
             //Without this input handling the program would crash and the final end wouldn't be displayed
             
 //        } catch (FileNotFoundException e) {
